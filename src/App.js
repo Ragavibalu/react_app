@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 //import PropsComponent from './components/functionalcomponents/PropsComponents';
 //import StateComponent from './components/classcomponents/StateComponent';
@@ -24,7 +24,7 @@ function App() {
       {/*<PropsComponent name="Hello everyone" course="ECE"></PropsComponent>*/}
       <header className="App-header">
        {/*<Statecomponent/>*/}
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -33,13 +33,26 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-        >
+        >git commit
           Learn React
-        </a>
+        </a> */}
       </header>
-      <footer>
-      <p>&copy; 2024 All Rights Reserved By <span>authorized</span></p>
-      </footer>
+      
+  <footer>
+  <footer style={{ backgroundColor: '#D6E2E2', color: 'black', padding: '20px', textAlign: 'center' }}>
+<p>Contact: ragavib.21ece@gmail.com | Phone: +91-9894913728</p>
+<ul style={{ listStyleType: 'none', padding: 0 }}>
+    <li> <a href="https://www.linkedin.com/in/ragavi-balu-06b0b6225/"><i class="fab fa-linkedin">linkedin</i></a>
+</li>
+    <li><a href="/terms-of-service">Terms of Service</a></li>
+</ul>
+</footer>
+  
+    <p>&copy; 2024 All Rights Reserved By <span>authorized</span></p>
+      
+    
+</footer>
+
     </div>
   );
 }

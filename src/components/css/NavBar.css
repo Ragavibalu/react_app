@@ -2,7 +2,90 @@ ol {
     display:flex;
     justify-content: space-evenly;
     list-style-type:none;
-     background-color: aqua;
+     background-color:black;
      margin: 0;
-    padding: 20px;
+    padding: 25px;
 }
+footer{
+    background-color: #04AA6D; 
+    padding: 20px;
+    text-align: center;
+}
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+    
+    .footer-container {
+    background-color: white;
+    display: flex;}
+    
+    .footer-container a {
+    color: #F5F6F7;
+    padding: 42px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;}
+    
+    .footer-left {
+    margin-right: auto}
+    
+    .fa:hover {
+    color: #45405F;}
+    
+    .footer-icons {
+    justify-content: space-between;
+justify-content: space-between;
+padding: 16px 64px 0px 0px}
+
+.footer-icons ul {
+list-style-type: none;}
+
+.footer-icons li {
+display: inline-block;}
+
+.footer-right {
+margin-left: auto}
+
+.copyright 
+{background-color: #F5F6F7;
+overflow: hidden;}
+ 
