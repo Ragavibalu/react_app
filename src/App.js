@@ -1,5 +1,6 @@
 //import logo from './logo.svg';
 import './App.css';
+
 //import PropsComponent from './components/functionalcomponents/PropsComponents';
 //import StateComponent from './components/classcomponents/StateComponent';
 import NavBar from './components/functionalcomponents/NavBar';
@@ -8,6 +9,10 @@ import About from './components/functionalcomponents/About';
 import Experience from './components/functionalcomponents/Experience';
 import Home from './components/functionalcomponents/Home';
 import Login from './components/functionalcomponents/Login';
+import Reference from './components/functionalcomponents/Reference';
+import Memo from './components/functionalcomponents/Memo';
+import Callback from './components/functionalcomponents/callback';
+import map from 'core-js/fn/array/map';
 
 function App() {
   return (
@@ -19,6 +24,10 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/Home" element={<Home />}></Route>
           <Route path="/Login" element={<Login />}></Route>
+          <Route path="/useRef" element={<Reference />}></Route>
+          <Route path="/Memo" element={<Memo/>}></Route>
+          <Route path="/Callback" element={<Callback/>}></Route>
+          <Route path="/map" element={<map/>}></Route>
       </Routes>
       </BrowserRouter>
       {/*<PropsComponent name="Hello everyone" course="ECE"></PropsComponent>*/}
